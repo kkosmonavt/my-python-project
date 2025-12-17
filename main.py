@@ -32,4 +32,4 @@ api.add_resource(Courses, '/api/courses/<int:course_id>')
 
 
 if __name__ == '__main__':  # Двойное подчеркивание с двух сторон
-    app.run(debug=True, port=3000, host='127.0.0.1')
+    app.run(debug=True, port=3000, host='0.0.0.0')
